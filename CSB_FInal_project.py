@@ -194,6 +194,8 @@ def main():
             
             # Create log entries
             log_entries = df.copy()
+            original_filename= uploaded_file.name[0:-4]
+            df.to_csv(f'Prediction_results/{original_filename}_result.csv', index=False)
             log_entries['Status'] = 'Pending'
             st.session_state.log_entries = log_entries
 
