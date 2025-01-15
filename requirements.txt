@@ -1,7 +1,8 @@
-joblib
-lime
-numpy
-pandas
-plotly
-streamlit
-streamlit_agraph
+joblib==1.4.2
+lime==0.2.0.1
+numpy>=1.19.3,<2 
+pandas>=1.4.0,<2.0  
+plotly==5.22.0
+streamlit==1.32.0
+streamlit_agraph==0.0.45
+
